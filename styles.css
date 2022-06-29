@@ -1,0 +1,183 @@
+/* Variables */
+:root {
+  /* Colors */
+  --color-gray-01: 17, 24, 39;
+  --color-gray-02: 31, 41, 55;
+  --color-gray-03: 55, 65, 81;
+  --color-gray-04: 100, 116, 139;
+  --color-gray-05: 148, 163, 184;
+  --color-gray-06: 241, 245, 249;
+  --color-blue: 37, 99, 235;
+  --color-red: 225, 29, 72;
+  --color-white: 255, 255, 255;
+}
+
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Selection */
+::selection {
+  color: rgb(var(--color-blue));
+  background: rgba(var(--color-blue), .10);
+}
+
+/* Body */
+body {
+  font-family: "Arial", sans-serif;
+  background: rgb(var(--color-gray-01));
+  color: rgb(var(--color-gray-06));
+}
+
+/* Container */
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+/* Title */
+#title {
+  font-size: 1.75rem;
+}
+
+/* Description */
+#description {
+  padding-top: .75rem;
+  color: rgb(var(--color-gray-05));
+}
+
+/* Form */
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  border-radius: .75rem;
+  border: 2px solid rgb(var(--color-gray-03));
+  background: rgb(var(--color-gray-02));
+}
+
+/* Form Group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+/* Radio Checkbox Group */
+.radio-checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  font-size: .875rem;
+  color: rgb(var(--color-gray-05));
+}
+
+/* Required */
+.required::after {
+  content: "*";
+  padding-left: .2rem;
+  color: rgb(var(--color-red));
+}
+
+/* Input / Select / Textarea */
+input,
+select,
+textarea {
+  background: rgb(var(--color-gray-03));
+  color: rgb(var(--color-gray-05));
+  padding: .875rem;
+  border-radius: .5rem;
+  border: 0;
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+  outline: 2px solid rgba(var(--color-blue), .50);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid rgb(var(--color-blue));
+}
+
+
+/* Placeholder */
+input::placeholder,
+textarea::placeholder {
+  color: rgb(var(--color-gray-04));
+  opacity: .5;
+  font-family: "Arial", sans-serif;
+}
+
+/* Select */
+select::selected {
+  color: rgb(var(--color-red));
+}
+
+/* Option */
+option:disabled {
+  color: rgb(var(--color-gray-04));
+}
+
+/* Textarea */
+textarea {
+  height: 10rem;
+}
+
+/* Remove arrows from input number */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Button */
+button {
+  padding: 1rem 0;
+  border: none;
+  color: rgb(var(--color-white));
+  background: rgba(var(--color-blue), .8);
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(var(--color-blue));
+}
+
+/* Footer */
+footer {
+  padding: 3rem 0;
+  font-size: .75rem;
+  text-align: center;
+  color: rgb(var(--color-gray-05));
+}
+
+/* Link Footer */
+footer a {
+  color: rgb(var(--color-blue));
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
