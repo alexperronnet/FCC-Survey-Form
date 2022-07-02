@@ -4,7 +4,7 @@ Responsive Web Design - Survey Form
 
 ## Screenshots
 
-![freeCodeCamp Survey Form](images/screenshot.png "Survey Form")
+![freeCodeCamp Survey Form](images/index.png "Survey Form")
 
 ## Tech Stack
 
