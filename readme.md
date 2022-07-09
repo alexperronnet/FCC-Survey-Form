@@ -2,10 +2,6 @@
 
 Responsive Web Design - Survey Form
 
-## Screenshots
-
-![freeCodeCamp Survey Form](images/screenshot.png "Survey Form")
-
 ## Tech Stack
 
 - HTML
@@ -39,3 +35,7 @@ Build an app that is functionally similar to [https://survey-form.freecodecamp.r
 ## Demo
 
 For a demo, check out [https://alexperronnet.github.io/FCC-Survey-Form/](https://alexperronnet.github.io/FCC-Survey-Form/)
+
+## Screenshots
+
+![freeCodeCamp Survey Form](images/screenshot.png "Survey Form")
