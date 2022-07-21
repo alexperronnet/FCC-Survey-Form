@@ -34,7 +34,7 @@ Build an app that is functionally similar to [https://survey-form.freecodecamp.r
 
 ## Demo
 
-For a demo, check out [https://alexperronnet.github.io/FCC-Survey-Form/](https://alexperronnet.github.io/FCC-Survey-Form/)
+For a demo, check out [https://ap-fcc-survey-form.netlify.app/](https://ap-fcc-survey-form.netlify.app/)
 
 ## Screenshots
 
